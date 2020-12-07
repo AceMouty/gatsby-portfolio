@@ -81,30 +81,30 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/acemouty/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/AceMouty',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
