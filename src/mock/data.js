@@ -31,6 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'acme-credit_thumbnail.png',
+    title: 'Acme Credit',
+    info:
+      'At Acme Credit users can easily apply for loans as well as edit any existing loan applications. Applying or editing a loan is easy thanks to our clean and simple UI.',
+    info2: '',
+    url: 'https://acme-credit.netlify.app/',
+    repo: 'https://github.com/Acme-Credit', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ncov19_thumbnail.png',
     title: 'Covid Dash',
     info:
