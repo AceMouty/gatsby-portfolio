@@ -32,5 +32,17 @@
         font-size: 2rem;
       }
     }
+
+    .contact-form__input {
+      font-size: $default-font-size;
+      height: auto;
+      padding: 2rem;
+    }
+
+    .contact-form__message {
+      height: 24.8rem;
+      padding: 2rem;
+      font-size: $default-font-size;
+    }
   }
 }
