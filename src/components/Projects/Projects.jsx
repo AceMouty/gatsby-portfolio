@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, tech, info, info2, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -41,7 +41,10 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title mb-0">
+                        {title || 'Project Title'}
+                      </h3>
+                      <p className="text-secondary">{tech || 'Tech1 | Tech2 | Tech3'}</p>
                       <div>
                         <p>
                           {info ||
@@ -55,7 +58,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        Live Demo
                       </a>
 
                       {repo && (
