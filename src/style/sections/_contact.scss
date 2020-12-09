@@ -44,5 +44,10 @@
       padding: 2rem;
       font-size: $default-font-size;
     }
+
+    .form-success {
+      font-size: $default-font-size;
+      font-weight: bold;
+    }
   }
 }
