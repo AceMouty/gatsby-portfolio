@@ -24,7 +24,7 @@ export const aboutData = {
     'I attended and completed Lambda School as a stepping stone in becoming a Web Developer.',
   paragraphThree:
     'During my time at Lambda I gained experience in working with a wide range of technology including but not limited to JavaScript, React, Redux, Node/Express, Python, Flask, Django, GraphQL, HTML & CSS, CSS Preprocessors, Jest, and React Testing Library.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: `${process.env.GATSBY_RESUME}`, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
