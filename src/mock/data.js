@@ -31,16 +31,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'acme-credit_thumbnail.png',
-    title: 'Acme Credit',
-    info:
-      'At Acme Credit users can easily apply for loans as well as edit any existing loan applications. Applying or editing a loan is easy thanks to our clean and simple UI.',
-    info2: '',
-    url: 'https://acme-credit.netlify.app/',
-    repo: 'https://github.com/Acme-Credit', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'ncov19_thumbnail.png',
     title: 'Covid Dash',
     info:
@@ -51,6 +41,26 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'acme-credit_thumbnail.png',
+    title: 'Acme Credit',
+    info:
+      'At Acme Credit users can easily apply for loans as well as edit any existing loan applications. Applying or editing a loan is easy thanks to our clean and simple UI.',
+    info2: '',
+    url: 'https://acme-credit.netlify.app/',
+    repo: 'https://github.com/Acme-Credit', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'twitoff_thumbnail.png',
+    title: 'TwitOff',
+    info:
+      'With TwitOff users are able to select two twitter users, write a tweet and see who is more likely to make a similar tweet. The prediction is made with a machine learning model. Users can also add and remove twitter users from the app, along with viewing tweets from the current twitter users in the app.',
+    info2: '',
+    url: 'https://twitoff.com/',
+    repo: 'https://github.com/hurshd0/TwitOff', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'rick-n-morty_thumbnail.png',
     title: 'Rick And Morty Fan App',
     info:
@@ -58,16 +68,6 @@ export const projectsData = [
     info2: '',
     url: 'https://rick-n-morty-fan-page.netlify.app/',
     repo: 'https://github.com/AceMouty/Sprint-Challenge-Single-Page-Apps', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'twitoff_thumbnail.png',
-    title: 'TwitOff',
-    info:
-      'With TiwtOff users are able to select two twitter users, write a tweet and see who is more likely to make a similar tweet. The prediction is made with a machine learning model. Users can also add and remove twitter users from the app, along with viewing tweets from the current twitter users in the app.',
-    info2: '',
-    url: 'https://twitoff.com/',
-    repo: 'https://github.com/hurshd0/TwitOff', // if no repo, the button will not show up
   },
 ];
 

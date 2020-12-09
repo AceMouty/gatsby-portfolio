@@ -1,7 +1,6 @@
-
-require("dotenv").config({
+require('dotenv').config({
   path: '.env',
-})
+});
 
 module.exports = {
   plugins: [
@@ -27,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Kyle Guerrero's Portfolio`,
+        short_name: `Kyle's Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
