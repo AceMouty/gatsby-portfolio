@@ -19,11 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'me.jpeg',
   paragraphOne:
-    'I have been working towards becoming a Web Developer since 2018. Professionally, I have held a number of different roles including: Installation Supervisor, Maintenance Technician, and Systems Analyst.',
-  paragraphTwo:
-    'I attended and completed Lambda School as a stepping stone in becoming a Web Developer.',
+    'As I mentioned above, my name is Kyle Guerrero. I love web development, traveling, tinkering with tech in my free time, teaching code and working on open source projects. Professionally, I have held a number of different roles including: Systems Analyst, Installation Supervisor and Maintenance Technician.',
+  paragraphTwo: 'I have been a Web Developer since 2018.',
   paragraphThree:
-    'During my time at Lambda I gained experience in working with a wide range of technology including but not limited to JavaScript, React, Redux, Node/Express, Python, Flask, Django, GraphQL, HTML & CSS, CSS Preprocessors, Jest, and React Testing Library.',
+    'I am experienced working with JavaScript, React, Redux, Node/Express, Python, Flask, Django, GraphQL, HTML & CSS, CSS Preprocessors, Jest,React Testing Library, AWS and Docker.',
   resume: `${process.env.GATSBY_RESUME}`, // if no resume, the button will not show up
 };
 
